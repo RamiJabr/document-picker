@@ -5,8 +5,8 @@ const project = (() => {
   try {
     return {
       android: {
-        sourceDir: path.join('example', 'android'),
-        manifestPath: androidManifestPath(path.join(__dirname, 'example', 'android')),
+        // sourceDir: path.join('example', 'android'),
+        // manifestPath: androidManifestPath(path.join(__dirname, 'example', 'android')),
       },
       ios: {
         sourceDir: path.join('example', 'ios'),
